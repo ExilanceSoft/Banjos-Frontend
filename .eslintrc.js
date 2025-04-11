@@ -1,39 +1,34 @@
 module.exports = {
-<<<<<<< HEAD
+
   parserOptions: {
     ecmaVersion: 2020, 
     sourceType: 'module', 
     ecmaFeatures: {
       jsx: true, 
-=======
+
   // parser: '@typescript-eslint/parser', // Specifies the ESLint parser
   parserOptions: {
     ecmaVersion: 2020, // Allows for the parsing of modern ECMAScript features
     sourceType: 'module', // Allows for the use of imports
     ecmaFeatures: {
       jsx: true, // Allows for the parsing of JSX
->>>>>>> 57838aa7d4f820b8a3dd198a2902455b2d1a5eeb
     },
   },
   settings: {
     react: {
-<<<<<<< HEAD
       version: 'detect', 
 =======
       version: 'detect', // Tells eslint-plugin-react to automatically detect the version of React to use
->>>>>>> 57838aa7d4f820b8a3dd198a2902455b2d1a5eeb
     },
   },
   extends: [
     'react-app',
     'react-app/jest',
-<<<<<<< HEAD
     'plugin:react/recommended',
     'plugin:prettier/recommended', 
   ],
   plugins: ['react', 'react-hooks'],
   rules: {
-=======
     'plugin:react/recommended', // Uses the recommended rules from @eslint-plugin-react
     'plugin:prettier/recommended', // Enables eslint-plugin-prettier and eslint-config-prettier. This will display prettier errors as ESLint errors. Make sure this is always the last configuration in the extends array.
   ],
@@ -41,7 +36,6 @@ module.exports = {
   rules: {
     // Place to specify ESLint rules. Can be used to overwrite rules specified from the extended configs
     // e.g. "@typescript-eslint/explicit-function-return-type": "off",
->>>>>>> 57838aa7d4f820b8a3dd198a2902455b2d1a5eeb
     'react/display-name': 'off',
    "prettier/prettier": "off"
   },
