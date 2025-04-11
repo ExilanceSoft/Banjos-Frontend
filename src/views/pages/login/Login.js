@@ -53,7 +53,7 @@ const Login = () => {
 
     try {
       const response = await axios.post(
-        'http://127.0.0.1:8000/users/login',
+        'http://139.59.51.83:8000/users/login',
         { email, password },
         {
           headers: {
@@ -73,7 +73,7 @@ const Login = () => {
       axios.defaults.headers.common['X-CSRF-Token'] = response.data.csrf_token;
 
       // Fetch user details after successful login
-      const userResponse = await axios.get('http://127.0.0.1:8000/users/me');
+      const userResponse = await axios.get('http://139.59.51.83:8000/users/me');
       const user = userResponse.data;
 
       // Store user data
