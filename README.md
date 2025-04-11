@@ -1,4 +1,3 @@
-Project Setup & Run Guide(Frontend:ReactJs):
 1.Clone the repository (if not already done)
 
 git clone <your-repo-url>
