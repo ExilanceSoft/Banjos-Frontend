@@ -38,7 +38,7 @@ const Branches = () => {
   useEffect(() => {
     const fetchOrderLinks = async () => {
       try {
-        const response = await fetch('http://64.227.163.17:8000/online-order-links/');
+        const response = await fetch('http://64.227.163.17:8000/api/online-order-links/');
         if (!response.ok) {
           throw new Error('Failed to fetch order links');
         }
