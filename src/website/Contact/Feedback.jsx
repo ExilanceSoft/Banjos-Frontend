@@ -37,7 +37,11 @@ const Feedback = () => {
 
     try {
       // Send form data to the API
+<<<<<<< HEAD
       const response = await fetch('http://64.227.163.17:8000/submit-feedback', {
+=======
+      const response = await fetch('http://64.227.163.17:8000/docs/submit-feedback', {
+>>>>>>> 57838aa7d4f820b8a3dd198a2902455b2d1a5eeb
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
